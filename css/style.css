@@ -165,7 +165,7 @@ a {
   background: #180124;
   border-radius: 10px;
   position: fixed;
-  z-index: 100;
+  z-index: 1000;
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
