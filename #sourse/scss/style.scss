@@ -373,13 +373,13 @@ a {
             height: 10px;
             top: 30%;
             right: 0;
-            transition: all .15s linear;
+            // transition: all .15s linear;
             cursor: pointer;
         }
 
         &.active::after {
             transform: rotate(180deg);
-            transition: all .15s linear;
+            // transition: all .15s linear;
         }
 
     }
@@ -422,13 +422,13 @@ a {
             height: 10px;
             top: 30%;
             right: 0;
-            transition: all .15s linear;
+            // transition: all .15s linear;
             cursor: pointer;
         }
 
         &.active::after {
             transform: rotate(180deg);
-            transition: all .15s linear;
+            // transition: all .15s linear;
         }
 
     }
