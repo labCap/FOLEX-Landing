@@ -230,7 +230,7 @@ a {
 .top-content::before {
     content: '';
     position: absolute;
-    background: url('../img/png/decoration-top1.png') no-repeat;
+    background: url('../img/webp/decoration-top1.webp') no-repeat;
     width: 100%;
     height: 100%;
     max-width: 651px;
@@ -308,7 +308,7 @@ a {
                 position: absolute;
                 top: 32.7%;
                 right: 15%;
-                background: url('../img/png/ico-arrow.svg')no-repeat;
+                background: url('../img/svg/ico-arrow.svg')no-repeat;
                 width: 18px;
                 height: 14px;
             }
@@ -368,7 +368,7 @@ a {
         &::after {
             content: '';
             position: absolute;
-            background: url('../img/png/ico-arrow-top.svg') no-repeat;
+            background: url('../img/svg/ico-arrow-top.svg') no-repeat;
             width: 14px;
             height: 10px;
             top: 30%;
@@ -417,7 +417,7 @@ a {
         &::after {
             content: '';
             position: absolute;
-            background: url('../img/png/ico-arrow-top.svg') no-repeat;
+            background: url('../img/svg/ico-arrow-top.svg') no-repeat;
             width: 14px;
             height: 10px;
             top: 30%;
@@ -488,7 +488,7 @@ a {
             position: absolute;
             top: 13%;
             left: 0;
-            background: url('../img/png/star.png');
+            background: url('../img/svg/star.svg');
             width: 16px;
             height: 16px;
         }
@@ -909,7 +909,7 @@ a {
                 position: absolute;
                 top: 0;
                 left: 0;
-                background: url('../img/png/ico-list.svg') no-repeat;
+                background: url('../img/svg/ico-list.svg') no-repeat;
                 width: 26px;
                 height: 26px;
             }
@@ -962,7 +962,7 @@ a {
             right: 0;
             width: 300px;
             height: 300px;
-            background: url('../img/png/decoration-download.png');
+            background: url('../img/webp/decoration-download.webp');
         }
 
         img {
@@ -980,7 +980,7 @@ a {
     left: 56px;
     width: 169px;
     height: 164px;
-    background: url('../img/png/decoration-footer.png') no-repeat;
+    background: url('../img/svg/decoration-footer.webp') no-repeat;
 }
 
 .footer {
