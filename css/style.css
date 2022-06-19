@@ -1062,3 +1062,33 @@ a {
   color: #D0C8C8;
   padding: 10px 0;
 }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer__btn-top {
+  width: 52px;
+  height: 52px;
+  margin: 78px;
+  border-radius: 50%;
+  background: #c961f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 790px) {
+  .footer__btn-top {
+    margin: 15px;
+  }
+}
+.footer__btn-top:hover {
+  cursor: pointer;
+  background: #af53d7;
+  transition: all 0.2s linear;
+}
+.footer__btn-top img {
+  height: 100%;
+  max-height: 16px;
+}

@@ -27,4 +27,10 @@ $(function () {
         });
     });
 });
+const body = document.body;
+const arrowTop = document.querySelector('.footer__btn-top');
+
+arrowTop.addEventListener('click', function (event) {
+    body.scrollIntoView({ block: "center", behavior: "smooth" })
+});
 
